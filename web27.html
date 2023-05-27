@@ -1,0 +1,96 @@
+<!-- just look out some more details of the form element  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- just input likhta h toh ek box bn jaat h and usme hmn kuch bhi enter kr skte h  -->
+    <!-- <input> -->
+    <input type="password" margin =100px>
+    <!-- agr aap ab kuch box m likhne ke baad jaake inspect m jaate h and password ki jagah wha p text likhte h then you can see the content of the box which is written by the user  -->
+  <br>
+  <br>
+
+    <input type="email">
+    <!-- if you do not type the correct format of the gmail , when you remove your courser it shows the error , email id fake ya invalid ho skti h but it always check the format not the email   -->
+
+    <br>
+    <br>
+    <input min = 100 max= 200 type="number">
+    <!-- it has up-down allows to handlen the numbers  -->
+    <!-- you can increase or decrease a no , but if you set min and max in the input then it can only give no between the min and max -->
+
+    <!-- then updeows keys min 100 p ruk jayegi and max wo 200 tk jayega uske aage nhi  -->
+
+    <br><br>
+    <input  type="date">
+    <br><br>
+    <input type="color">
+    <!-- if you go on inspect and then change the type to text it shows the code of the color  -->
+
+    <br><br>
+    <input type="file"  >
+    <!-- then it has a brwose button , drag and drop your file also  -->
+
+    <br><br>
+
+    <input type="checkbox">
+    <!-- checkbox used when we have to select multiple  -->
+    <br><br>
+    <input type="radio">
+    <!-- we use radio when we uswe 1 out of many like in mcq , it is of round figure because radio ke ander hm ek capactior use krete h frequency ke liye toh wo sirf ek frequency chooose krti h at a particular time and same kaam h iss radio ka bhi  -->
+
+   <br><br>
+   <input type="checkbox">a
+   <input type="checkbox">b
+   <input type="checkbox">c
+   <br>
+   <input name="c" type="radio">x
+   <input name ="c" type="radio">y
+   <input name="c" type="radio">z
+
+   <!-- a, b , c ko toh hm saare hii select kr pa rhe h but x, y , z ko bhi saare hi selrct ho rhe h but hme toh kha tha ki radio button toh ek hi select krega then  -->
+
+   <!-- phir maine name = c likha sb input ke ander tb jaake ek hi select hua  -->
+<br><br>
+
+   <input id="a" type="checkbox"><label for="a">A</label>
+   <input type="checkbox">b
+   <input type="checkbox">c
+
+   <!-- hmne dekha ki box p jaake click kre toh checkbox p tick aa gya but ab hm chahte h ki agr m letter p dabau tb bhi checkbox click ho jaaye  -->
+
+   <!-- then i use the label keywork ab agr m a p click kr rha hu tb bhi checkbox p tick lg rha h , label attach kr deta h checkbox ka bus hme ek id deni pdti h  -->
+
+   <br><br>
+   <textarea name="" id="" cols="30" rows="10"></textarea>
+   <!-- we can increase or decrease the box area  , you can also provide multiple rows and colums you want according to your need -->
+
+   <br><br>
+   <select multiple name="" id="" width = 50px>
+    <option >uday</option>
+    <option >meenu</option>
+    <option >anmol</option>
+    <option >vritank</option>
+
+   </select>
+
+   <!-- we can selct any above the one option , if you want to select the multiple option the you write multiple on the , with the help of the control key you can select the multiple option  -->
+
+   <br><br>
+    <form action="//google.com/search" >
+   <input name="q" >
+   <button type="submit">search</button>
+   <button type="reset"> reset</button>
+   <!-- reset will erase the things in the input button  -->
+</form>
+<!-- if you write anything that you want to ssearch and click on the search buttoon it will go directly to the google and search the value you have entered  -->
+
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!-- thead and tbody are also used in the table  -->
+<!-- thead == used to wrap table head (caption with tr and th )
+    tbody == used to wrap the table body  -->
+
+<!-- use of colspan tag also , maan lo hme ek hi header je ander 3 line chahiye toh 
+hm colspan ka use kreneg like  -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>table continue</title>
+  </head>
+  <body>
+    <!-- thead ko use and tbody ko hm use krte h ki maan lo tumhare page p 10 table 
+        ha toh tumhe kisi table ka colour change krna h toh wo css ke thorugh 
+    and thead and tbody ke through bhoot jaldi ho jayega  -->
+
+    <!-- thead ke ander hm caption daal skte h aur uss table ke header names  -->
+    <!-- tbody ke ander baaki rows mtb information and data uske ander aa jayega -->
+
+    <table>
+      <!-- table tag banaya h phele hmne -->
+      <!-- agar hme 3 colums chahiye ek hi heading ke upar then hme ek hi 2 hi heading 
+        chahiye hogi nah common sense -->
+      <caption>
+        these are the player names in world
+      </caption>
+      <tr>
+        <th>S.no</th>
+        <!-- <th> Player name   </th> -->
+        <!-- <th> Player score   </th> -->
+        <th colspan="3">Game</th>
+        <!--colspan likne se th ke ander hi hmare 
+        game ke neeche 2 column aa gye agr m 3 krunga toh 3 bhi aa jayenge -->
+      </tr>
+
+      <tr>
+        <td>1</td>
+        <td>Uday mathur</td>
+        <td>100</td>
+        <td>basketball</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+        <td>Uday sheety</td>
+        <td>10</td>
+        <td>baseball</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>sheety</td>
+        <td>103</td>
+        <td>ball</td>
+      </tr>
+    </table>
+  </body>
+</html>
